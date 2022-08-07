@@ -1,10 +1,12 @@
 # City Search
 
+## Overview
+
 Application demonstrating the use of a `Trie` data structure to search and 
 display cities matching a query string provided by the user.
 
-The trie data is stored using an efficient bit-packing format which allows a 
-large number of entries to be loaded relatively quickly at runtime.   
+The trie data is stored using an efficient bit-packing format which allows the 
+large number of entries to be loaded efficiently at runtime.   
 
 We have a list of cities containing around 200k entries in JSON format. Each 
 entry contains the following information:
@@ -38,20 +40,8 @@ The application includes the following features:
 
 ## Additional requirements/restrictions:
 
-* The original list of cities is provided as a plain text JSON format array. The 
-list is preprocessed into a data rep representation that can be loaded more 
-efficiently. Compared to the 
-* Database implementations are forbidden
-* Provide unit tests, that your search algorithm is displaying the correct results giving
-different inputs, including invalid inputs.
-* Alpha/beta versions of the IDE are forbidden, you must work with the stable version of
-the IDE
-* The code of the assignment has to be delivered along with the git repository (.git folder).
-We want to see the progress evolution
-* Screen rotation should be allowed 
-* Language must be Swift
-* Compatible with the 2 latest major versions of iOS
-* 3rd party libraries are forbidden.
+* The original list of cities is provided as a plain text JSON format array. The list is preprocessed into a data representation that can be loaded more efficiently. 
+* Provides unit tests, that your search algorithm is displaying the correct results giving different inputs, including invalid inputs.
 
 ## Clarifications
 

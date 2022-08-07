@@ -98,6 +98,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0560AC289FE99C0023B4E1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC388739285077EA00F5922A /* XCTestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExtensions.swift; sourceTree = "<group>"; };
 		FC474CAD2857275500887594 /* NumberDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDataCodableTests.swift; sourceTree = "<group>"; };
 		FC474CAF2857312300887594 /* FloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
@@ -316,6 +317,7 @@
 		FC660C40284F88470074A213 = {
 			isa = PBXGroup;
 			children = (
+				FC0560AC289FE99C0023B4E1 /* LICENSE */,
 				FC9C5969289AA5C500EB4158 /* README.md */,
 				FC660C7E284F88AC0074A213 /* NOTES.md */,
 				FC5CC4AC285374A300D02FD1 /* JOURNAL.md */,
