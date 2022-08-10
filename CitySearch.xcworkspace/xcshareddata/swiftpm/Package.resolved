@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftpack",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lukevanin/SwiftPack.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ec637636675c5362d0c89b990ccf33199baad6cc"
+      }
+    }
+  ],
+  "version" : 2
+}

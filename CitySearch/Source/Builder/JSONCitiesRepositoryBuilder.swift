@@ -1,5 +1,7 @@
 import Foundation
 
+import TextIndex
+
 struct JSONCitiesRepositoryBuilder: BuilderProtocol {
     
     let data: Data

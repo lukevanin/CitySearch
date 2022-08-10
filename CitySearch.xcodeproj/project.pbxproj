@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0560AB289FE88E0023B4E1 /* SwiftTrie in Frameworks */ = {isa = PBXBuildFile; productRef = FC0560AA289FE88E0023B4E1 /* SwiftTrie */; };
 		FC38873A285077EA00F5922A /* XCTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC388739285077EA00F5922A /* XCTestExtensions.swift */; };
 		FC474CAE2857275500887594 /* NumberDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CAD2857275500887594 /* NumberDataCodableTests.swift */; };
-		FC474CB02857312300887594 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CAF2857312300887594 /* FloatingPoint.swift */; };
 		FC474CB228573C9500887594 /* VarUInt64DataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CB128573C9500887594 /* VarUInt64DataCodableTests.swift */; };
 		FC474CB428574C5300887594 /* ArrayDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CB328574C5300887594 /* ArrayDataCodableTests.swift */; };
 		FC474CB628576F7F00887594 /* DictionaryDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CB528576F7F00887594 /* DictionaryDataCodableTests.swift */; };
@@ -20,6 +18,9 @@
 		FC474CBE2857770B00887594 /* BooleanDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CBD2857770B00887594 /* BooleanDataCodableTests.swift */; };
 		FC474CC02857796D00887594 /* IndexedCitiesRepositoryDataCodablePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CBF2857796D00887594 /* IndexedCitiesRepositoryDataCodablePerformanceTests.swift */; };
 		FC474CC2285782BF00887594 /* cities-repository.z in Resources */ = {isa = PBXBuildFile; fileRef = FC474CC1285782BF00887594 /* cities-repository.z */; };
+		FC4E2EC928A3EF1A003E1131 /* TextIndex in Frameworks */ = {isa = PBXBuildFile; productRef = FC4E2EC828A3EF1A003E1131 /* TextIndex */; };
+		FC4E2ED328A3F5E2003E1131 /* CaseInsensitiveTextIndex+DataCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4E2ECE28A3F5E2003E1131 /* CaseInsensitiveTextIndex+DataCodable.swift */; };
+		FC4E2ED528A3F5E2003E1131 /* TrieTextIndex+DataCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4E2ED028A3F5E2003E1131 /* TrieTextIndex+DataCodable.swift */; };
 		FC5CC47C28514C5100D02FD1 /* IndexedCitiesRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47B28514C5100D02FD1 /* IndexedCitiesRepositoryTests.swift */; };
 		FC5CC47E2851DCCA00D02FD1 /* IndexedCitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47D2851DCCA00D02FD1 /* IndexedCitiesRepository.swift */; };
 		FC5CC4802852004C00D02FD1 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47F2852004B00D02FD1 /* Repositories.swift */; };
@@ -73,11 +74,7 @@
 		FC660C86284FA0390074A213 /* TrieTextIndexAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC660C85284FA0390074A213 /* TrieTextIndexAcceptanceTests.swift */; };
 		FC7F9A7A2861C4D400B67BAA /* Cities-2.z in Resources */ = {isa = PBXBuildFile; fileRef = FC7F9A792861C4D400B67BAA /* Cities-2.z */; };
 		FC9A57072857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A57062857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift */; };
-		FCA6E6522855620900CDE0AE /* DataCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E6512855620900CDE0AE /* DataCodable.swift */; };
 		FCA6E6562856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E6552856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift */; };
-		FCA6E65928566FA400CDE0AE /* DataEncoderDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E65828566FA400CDE0AE /* DataEncoderDecoder.swift */; };
-		FCA6E65D2856710500CDE0AE /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E65C2856710500CDE0AE /* Integer.swift */; };
-		FCA6E65F2856732100CDE0AE /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E65E2856732100CDE0AE /* Complex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +98,6 @@
 		FC0560AC289FE99C0023B4E1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC388739285077EA00F5922A /* XCTestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExtensions.swift; sourceTree = "<group>"; };
 		FC474CAD2857275500887594 /* NumberDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberDataCodableTests.swift; sourceTree = "<group>"; };
-		FC474CAF2857312300887594 /* FloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
 		FC474CB128573C9500887594 /* VarUInt64DataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarUInt64DataCodableTests.swift; sourceTree = "<group>"; };
 		FC474CB328574C5300887594 /* ArrayDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDataCodableTests.swift; sourceTree = "<group>"; };
 		FC474CB528576F7F00887594 /* DictionaryDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataCodableTests.swift; sourceTree = "<group>"; };
@@ -111,6 +107,8 @@
 		FC474CBD2857770B00887594 /* BooleanDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooleanDataCodableTests.swift; sourceTree = "<group>"; };
 		FC474CBF2857796D00887594 /* IndexedCitiesRepositoryDataCodablePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedCitiesRepositoryDataCodablePerformanceTests.swift; sourceTree = "<group>"; };
 		FC474CC1285782BF00887594 /* cities-repository.z */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cities-repository.z"; sourceTree = "<group>"; };
+		FC4E2ECE28A3F5E2003E1131 /* CaseInsensitiveTextIndex+DataCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaseInsensitiveTextIndex+DataCodable.swift"; sourceTree = "<group>"; };
+		FC4E2ED028A3F5E2003E1131 /* TrieTextIndex+DataCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrieTextIndex+DataCodable.swift"; sourceTree = "<group>"; };
 		FC5CC47B28514C5100D02FD1 /* IndexedCitiesRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedCitiesRepositoryTests.swift; sourceTree = "<group>"; };
 		FC5CC47D2851DCCA00D02FD1 /* IndexedCitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedCitiesRepository.swift; sourceTree = "<group>"; };
 		FC5CC47F2852004B00D02FD1 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
@@ -170,11 +168,7 @@
 		FC7F9A792861C4D400B67BAA /* Cities-2.z */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cities-2.z"; sourceTree = "<group>"; };
 		FC9A57062857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextIndexDataCodablePerformanceTests.swift; sourceTree = "<group>"; };
 		FC9C5969289AA5C500EB4158 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FCA6E6512855620900CDE0AE /* DataCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCodable.swift; sourceTree = "<group>"; };
 		FCA6E6552856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedCitiesRepositoryDataCodableTests.swift; sourceTree = "<group>"; };
-		FCA6E65828566FA400CDE0AE /* DataEncoderDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEncoderDecoder.swift; sourceTree = "<group>"; };
-		FCA6E65C2856710500CDE0AE /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
-		FCA6E65E2856732100CDE0AE /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0560AB289FE88E0023B4E1 /* SwiftTrie in Frameworks */,
+				FC4E2EC928A3EF1A003E1131 /* TextIndex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +197,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC4E2ECA28A3F4B6003E1131 /* Data Codable */ = {
+			isa = PBXGroup;
+			children = (
+				FC4E2ECE28A3F5E2003E1131 /* CaseInsensitiveTextIndex+DataCodable.swift */,
+				FC4E2ED028A3F5E2003E1131 /* TrieTextIndex+DataCodable.swift */,
+			);
+			path = "Data Codable";
+			sourceTree = "<group>";
+		};
 		FC5CC4892852348000D02FD1 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,7 +383,7 @@
 				FC5CC49D28524A9800D02FD1 /* View */,
 				FC660C8A284FD6870074A213 /* Model */,
 				FC5CC4892852348000D02FD1 /* Repository */,
-				FCA6E6572856665A00CDE0AE /* Data Codec */,
+				FC4E2ECA28A3F4B6003E1131 /* Data Codable */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -426,18 +429,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FCA6E6572856665A00CDE0AE /* Data Codec */ = {
-			isa = PBXGroup;
-			children = (
-				FCA6E6512855620900CDE0AE /* DataCodable.swift */,
-				FCA6E65828566FA400CDE0AE /* DataEncoderDecoder.swift */,
-				FCA6E65C2856710500CDE0AE /* Integer.swift */,
-				FC474CAF2857312300887594 /* FloatingPoint.swift */,
-				FCA6E65E2856732100CDE0AE /* Complex.swift */,
-			);
-			path = "Data Codec";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -455,7 +446,7 @@
 			);
 			name = CitySearch;
 			packageProductDependencies = (
-				FC0560AA289FE88E0023B4E1 /* SwiftTrie */,
+				FC4E2EC828A3EF1A003E1131 /* TextIndex */,
 			);
 			productName = CitySearch;
 			productReference = FC660C49284F88470074A213 /* CitySearch.app */;
@@ -531,7 +522,8 @@
 			);
 			mainGroup = FC660C40284F88470074A213;
 			packageReferences = (
-				FC0560A9289FE88E0023B4E1 /* XCRemoteSwiftPackageReference "SwiftTrie" */,
+				FC0560AF28A010350023B4E1 /* XCRemoteSwiftPackageReference "SwiftPack" */,
+				FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */,
 			);
 			productRefGroup = FC660C4A284F88470074A213 /* Products */;
 			projectDirPath = "";
@@ -581,18 +573,15 @@
 			files = (
 				FC5CC4C5285391D800D02FD1 /* AnyCoordinator.swift in Sources */,
 				FC5CC4BD2853872E00D02FD1 /* NavigationCoordinator.swift in Sources */,
-				FCA6E65928566FA400CDE0AE /* DataEncoderDecoder.swift in Sources */,
-				FCA6E6522855620900CDE0AE /* DataCodable.swift in Sources */,
 				FC660C51284F88470074A213 /* SearchViewController.swift in Sources */,
 				FC5CC4CD2854908100D02FD1 /* JSONCitiesRepositoryBuilder.swift in Sources */,
 				FC5CC49228523C8C00D02FD1 /* SearchModuleBuilder.swift in Sources */,
 				FC660C4D284F88470074A213 /* AppDelegate.swift in Sources */,
-				FCA6E65D2856710500CDE0AE /* Integer.swift in Sources */,
+				FC4E2ED328A3F5E2003E1131 /* CaseInsensitiveTextIndex+DataCodable.swift in Sources */,
 				FC5CC4BF28538C2500D02FD1 /* SearchCoordinator.swift in Sources */,
 				FC5CC4CF2854A5B700D02FD1 /* PlaceholderView.swift in Sources */,
 				FC5CC482285205AD00D02FD1 /* CitySearchModel.swift in Sources */,
 				FC660C4F284F88470074A213 /* SceneDelegate.swift in Sources */,
-				FCA6E65F2856732100CDE0AE /* Complex.swift in Sources */,
 				FC5CC47E2851DCCA00D02FD1 /* IndexedCitiesRepository.swift in Sources */,
 				FC5CC4B228537CDC00D02FD1 /* MapViewController.swift in Sources */,
 				FC5CC4A928534AD500D02FD1 /* TestCitiesRepositoryBuilder.swift in Sources */,
@@ -601,9 +590,9 @@
 				FC5CC49F28524AA800D02FD1 /* SearchResultView.swift in Sources */,
 				FC5CC4C92853FA5F00D02FD1 /* Environment.swift in Sources */,
 				FC5CC4A728533B5B00D02FD1 /* SearchResultCellConfigurationBuilder.swift in Sources */,
-				FC474CB02857312300887594 /* FloatingPoint.swift in Sources */,
 				FC5CC4C128538E0000D02FD1 /* WindowCoordinator.swift in Sources */,
 				FC5CC4A52853282D00D02FD1 /* ApplicationModuleBuilder.swift in Sources */,
+				FC4E2ED528A3F5E2003E1131 /* TrieTextIndex+DataCodable.swift in Sources */,
 				FC5CC4C72853F6B800D02FD1 /* ApplicationCoordinatorBuilder.swift in Sources */,
 				FC5CC48F28523A2000D02FD1 /* Models.swift in Sources */,
 				FC5CC49428523ED700D02FD1 /* Builders.swift in Sources */,
@@ -1128,9 +1117,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FC0560A9289FE88E0023B4E1 /* XCRemoteSwiftPackageReference "SwiftTrie" */ = {
+		FC0560AF28A010350023B4E1 /* XCRemoteSwiftPackageReference "SwiftPack" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:lukevanin/SwiftTrie.git";
+			repositoryURL = "git@github.com:lukevanin/SwiftPack.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:lukevanin/TextIndex.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -1139,10 +1136,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FC0560AA289FE88E0023B4E1 /* SwiftTrie */ = {
+		FC4E2EC828A3EF1A003E1131 /* TextIndex */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC0560A9289FE88E0023B4E1 /* XCRemoteSwiftPackageReference "SwiftTrie" */;
-			productName = SwiftTrie;
+			package = FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */;
+			productName = TextIndex;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

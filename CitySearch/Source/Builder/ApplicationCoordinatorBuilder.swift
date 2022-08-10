@@ -1,5 +1,7 @@
 import UIKit
 
+import TextIndex
+
 struct ApplicationCoordinatorBuilder: BuilderProtocol {
     
     let windowScene: UIWindowScene

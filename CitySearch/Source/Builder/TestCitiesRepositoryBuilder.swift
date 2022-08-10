@@ -1,5 +1,7 @@
 import Foundation
 
+import TextIndex
+
 struct TestCitiesRepositoryBuilder: BuilderProtocol {
     
     var index: AnyTextIndex<Int> = AnyTextIndex(CaseInsensitiveTextIndex(TrieTextIndex<Int>()))
