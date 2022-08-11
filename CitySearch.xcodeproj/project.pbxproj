@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC128B9228A4FEA2008DB811 /* SwiftPack in Frameworks */ = {isa = PBXBuildFile; productRef = FC128B9128A4FEA2008DB811 /* SwiftPack */; };
 		FC38873A285077EA00F5922A /* XCTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC388739285077EA00F5922A /* XCTestExtensions.swift */; };
 		FC474CC02857796D00887594 /* IndexedCitiesRepositoryDataCodablePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC474CBF2857796D00887594 /* IndexedCitiesRepositoryDataCodablePerformanceTests.swift */; };
 		FC474CC2285782BF00887594 /* cities-repository.z in Resources */ = {isa = PBXBuildFile; fileRef = FC474CC1285782BF00887594 /* cities-repository.z */; };
-		FC4E2EC928A3EF1A003E1131 /* TextIndex in Frameworks */ = {isa = PBXBuildFile; productRef = FC4E2EC828A3EF1A003E1131 /* TextIndex */; };
 		FC5CC47C28514C5100D02FD1 /* IndexedCitiesRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47B28514C5100D02FD1 /* IndexedCitiesRepositoryTests.swift */; };
 		FC5CC47E2851DCCA00D02FD1 /* IndexedCitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47D2851DCCA00D02FD1 /* IndexedCitiesRepository.swift */; };
 		FC5CC4802852004C00D02FD1 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5CC47F2852004B00D02FD1 /* Repositories.swift */; };
@@ -56,9 +54,11 @@
 		FC660C82284F99520074A213 /* FilePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC660C81284F99520074A213 /* FilePerformanceTests.swift */; };
 		FC660C83284F9D3F0074A213 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = FC660C7C284F885D0074A213 /* cities.json */; };
 		FC660C84284F9D420074A213 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = FC660C7C284F885D0074A213 /* cities.json */; };
+		FC7EC96428A5513D00E10870 /* TextIndex in Frameworks */ = {isa = PBXBuildFile; productRef = FC7EC96328A5513D00E10870 /* TextIndex */; };
 		FC7F9A7A2861C4D400B67BAA /* Cities-2.z in Resources */ = {isa = PBXBuildFile; fileRef = FC7F9A792861C4D400B67BAA /* Cities-2.z */; };
 		FC9A57072857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A57062857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift */; };
 		FCA6E6562856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E6552856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift */; };
+		FCF6475A28A5579D0012B753 /* SwiftPack in Frameworks */ = {isa = PBXBuildFile; productRef = FCF6475928A5579D0012B753 /* SwiftPack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +132,8 @@
 		FC660C7C284F885D0074A213 /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		FC660C7E284F88AC0074A213 /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
 		FC660C81284F99520074A213 /* FilePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePerformanceTests.swift; sourceTree = "<group>"; };
+		FC7EC96828A5541500E10870 /* TextIndex */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TextIndex; path = ../TextIndex; sourceTree = "<group>"; };
+		FC7EC96928A5556D00E10870 /* SwiftPack */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftPack; path = ../SwiftPack; sourceTree = "<group>"; };
 		FC7F9A792861C4D400B67BAA /* Cities-2.z */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cities-2.z"; sourceTree = "<group>"; };
 		FC9A57062857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextIndexDataCodablePerformanceTests.swift; sourceTree = "<group>"; };
 		FC9C5969289AA5C500EB4158 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -143,8 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4E2EC928A3EF1A003E1131 /* TextIndex in Frameworks */,
-				FC128B9228A4FEA2008DB811 /* SwiftPack in Frameworks */,
+				FC7EC96428A5513D00E10870 /* TextIndex in Frameworks */,
+				FCF6475A28A5579D0012B753 /* SwiftPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +281,9 @@
 				FC660C62284F88490074A213 /* CitySearchTests */,
 				FC660C6C284F88490074A213 /* CitySearchUITests */,
 				FC660C4A284F88470074A213 /* Products */,
+				FC7EC96228A5513A00E10870 /* Frameworks */,
+				FC7EC96928A5556D00E10870 /* SwiftPack */,
+				FC7EC96828A5541500E10870 /* TextIndex */,
 			);
 			sourceTree = "<group>";
 		};
@@ -380,6 +385,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FC7EC96228A5513A00E10870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -397,8 +409,8 @@
 			);
 			name = CitySearch;
 			packageProductDependencies = (
-				FC4E2EC828A3EF1A003E1131 /* TextIndex */,
-				FC128B9128A4FEA2008DB811 /* SwiftPack */,
+				FC7EC96328A5513D00E10870 /* TextIndex */,
+				FCF6475928A5579D0012B753 /* SwiftPack */,
 			);
 			productName = CitySearch;
 			productReference = FC660C49284F88470074A213 /* CitySearch.app */;
@@ -474,8 +486,6 @@
 			);
 			mainGroup = FC660C40284F88470074A213;
 			packageReferences = (
-				FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */,
-				FC128B9028A4FEA2008DB811 /* XCRemoteSwiftPackageReference "SwiftPack" */,
 			);
 			productRefGroup = FC660C4A284F88470074A213 /* Products */;
 			projectDirPath = "";
@@ -1051,35 +1061,14 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		FC128B9028A4FEA2008DB811 /* XCRemoteSwiftPackageReference "SwiftPack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:lukevanin/SwiftPack.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:lukevanin/TextIndex.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		FC128B9128A4FEA2008DB811 /* SwiftPack */ = {
+		FC7EC96328A5513D00E10870 /* TextIndex */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC128B9028A4FEA2008DB811 /* XCRemoteSwiftPackageReference "SwiftPack" */;
-			productName = SwiftPack;
-		};
-		FC4E2EC828A3EF1A003E1131 /* TextIndex */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FC4E2EC728A3EF1A003E1131 /* XCRemoteSwiftPackageReference "TextIndex" */;
 			productName = TextIndex;
+		};
+		FCF6475928A5579D0012B753 /* SwiftPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftPack;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
