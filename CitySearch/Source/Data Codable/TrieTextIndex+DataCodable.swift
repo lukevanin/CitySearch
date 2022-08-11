@@ -5,13 +5,13 @@ import SwiftPack
 
 
 extension TrieTextIndex: DataCodable where Value: DataCodable {
-    init(decoder: DataDecoder) throws {
+    public init(decoder: DataDecoder) throws {
         self.init(
             root: try Node(decoder: decoder)
         )
     }
     
-    func encode(encoder: DataEncoder) {
+    public func encode(encoder: DataEncoder) {
         root.encode(encoder: encoder)
     }
 }
@@ -19,7 +19,7 @@ extension TrieTextIndex: DataCodable where Value: DataCodable {
 
 extension TrieTextIndex.Node: DataCodable where Value: DataCodable {
     
-    init(decoder: DataDecoder) throws {
+    public init(decoder: DataDecoder) throws {
         self = TrieTextIndex.Node(
             count: Int(try VarUInt64(decoder: decoder).value),
             values: try [Value](decoder: decoder),
@@ -28,7 +28,7 @@ extension TrieTextIndex.Node: DataCodable where Value: DataCodable {
         )
     }
     
-    func encode(encoder: DataEncoder) {
+    public func encode(encoder: DataEncoder) {
         VarUInt64(count).encode(encoder: encoder)
         values.encode(encoder: encoder)
         characters.encode(encoder: encoder)
@@ -39,14 +39,14 @@ extension TrieTextIndex.Node: DataCodable where Value: DataCodable {
 
 extension TrieTextIndex.CodeUnit: DataCodable {
     
-    init(decoder: DataDecoder) throws {
+    public init(decoder: DataDecoder) throws {
         let scalar = try VarUInt64(decoder: decoder)
         #warning("TODO: Safe unwrap")
         let unicodeScalar = UnicodeScalar(UInt32(scalar.value))!
         self.init(unicodeScalar: unicodeScalar)
     }
     
-    func encode(encoder: DataEncoder) {
+    public func encode(encoder: DataEncoder) {
         VarUInt64(scalarValue).encode(encoder: encoder)
     }
 }

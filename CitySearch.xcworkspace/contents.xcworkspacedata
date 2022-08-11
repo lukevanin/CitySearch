@@ -5,6 +5,9 @@
       location = "container:CitySearch.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../SwiftPack">
+   </FileRef>
+   <FileRef
       location = "group:../TextIndex">
    </FileRef>
 </Workspace>

@@ -1,5 +1,7 @@
 import Foundation
 
+import SwiftPack
+
 
 ///
 /// A geographical location on the earth

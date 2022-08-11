@@ -1,6 +1,7 @@
 import Foundation
 
 import TextIndex
+import SwiftPack
 
 ///
 /// A collection of cities.
