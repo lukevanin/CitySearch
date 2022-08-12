@@ -59,6 +59,8 @@
 		FC9A57072857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A57062857BC3700329151 /* TextIndexDataCodablePerformanceTests.swift */; };
 		FCA6E6562856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E6552856643A00CDE0AE /* IndexedCitiesRepositoryDataCodableTests.swift */; };
 		FCF6475A28A5579D0012B753 /* SwiftPack in Frameworks */ = {isa = PBXBuildFile; productRef = FCF6475928A5579D0012B753 /* SwiftPack */; };
+		FCF6475D28A63D0C0012B753 /* TextIndex in Frameworks */ = {isa = PBXBuildFile; productRef = FCF6475C28A63D0C0012B753 /* TextIndex */; };
+		FCF6476028A63D400012B753 /* SwiftPack in Frameworks */ = {isa = PBXBuildFile; productRef = FCF6475F28A63D400012B753 /* SwiftPack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF6475D28A63D0C0012B753 /* TextIndex in Frameworks */,
+				FCF6476028A63D400012B753 /* SwiftPack in Frameworks */,
 				FC7EC96428A5513D00E10870 /* TextIndex in Frameworks */,
 				FCF6475A28A5579D0012B753 /* SwiftPack in Frameworks */,
 			);
@@ -411,6 +415,8 @@
 			packageProductDependencies = (
 				FC7EC96328A5513D00E10870 /* TextIndex */,
 				FCF6475928A5579D0012B753 /* SwiftPack */,
+				FCF6475C28A63D0C0012B753 /* TextIndex */,
+				FCF6475F28A63D400012B753 /* SwiftPack */,
 			);
 			productName = CitySearch;
 			productReference = FC660C49284F88470074A213 /* CitySearch.app */;
@@ -486,6 +492,8 @@
 			);
 			mainGroup = FC660C40284F88470074A213;
 			packageReferences = (
+				FCF6475B28A63D0C0012B753 /* XCRemoteSwiftPackageReference "TextIndex" */,
+				FCF6475E28A63D400012B753 /* XCRemoteSwiftPackageReference "SwiftPack" */,
 			);
 			productRefGroup = FC660C4A284F88470074A213 /* Products */;
 			projectDirPath = "";
@@ -1061,6 +1069,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		FCF6475B28A63D0C0012B753 /* XCRemoteSwiftPackageReference "TextIndex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:lukevanin/TextIndex.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FCF6475E28A63D400012B753 /* XCRemoteSwiftPackageReference "SwiftPack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:lukevanin/SwiftPack.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		FC7EC96328A5513D00E10870 /* TextIndex */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1068,6 +1095,16 @@
 		};
 		FCF6475928A5579D0012B753 /* SwiftPack */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = SwiftPack;
+		};
+		FCF6475C28A63D0C0012B753 /* TextIndex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF6475B28A63D0C0012B753 /* XCRemoteSwiftPackageReference "TextIndex" */;
+			productName = TextIndex;
+		};
+		FCF6475F28A63D400012B753 /* SwiftPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF6475E28A63D400012B753 /* XCRemoteSwiftPackageReference "SwiftPack" */;
 			productName = SwiftPack;
 		};
 /* End XCSwiftPackageProductDependency section */
