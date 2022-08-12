@@ -1,15 +1,36 @@
 # City Search
 
-## Overview
+Example application demonstrating:
+- Using a Trie data structure to efficiently search and return relatively large 
+amounts of data with interactive performance. 
+- Using an efficient data encoding format for storing and loading structure data 
+at runtime.
 
-Application demonstrating the use of a `Trie` data structure to search and 
-display cities matching a query string provided by the user.
+The application makes use of the following packages:  
 
-The trie data is stored using an efficient bit-packing format which allows the 
-large number of entries to be loaded efficiently at runtime.   
+### TextIndex
 
-We have a list of cities containing around 200k entries in JSON format. Each 
-entry contains the following information:
+()[https://github.com/lukevanin/TextIndex] 
+
+TextIndex is used to search a database of of cities consisting of 200k 
+entries, and retrieve a subset according to a search term entered by a user.
+Various optimizations are used to search and return results consisting of tens 
+of thousands of matches within a few milliseconds. 
+
+### SwiftPack
+
+()[https://github.com/lukevanin/SwiftPack]
+
+SwiftPack is used to store the text index data on disk so that it can be
+loaded into memory efficiently. An efficient coding mechanism allows data to be
+read an order of magnitude faster compared to JSON. 
+
+## Features
+
+The app displays a list of 200k cities and their locations. The user can search
+for all cities whose name starts with a user provided prefix.
+ 
+Each entry contains the following information:
 
 ```
 {
@@ -38,14 +59,14 @@ The application includes the following features:
      * Show the coordinates as subtitle.
      * When tapped, show the location of that city on a map.
 
-## Additional requirements/restrictions:
+* The original list of cities is provided as a plain text JSON format array. The 
+list is preprocessed into a data representation that can be loaded 
+more efficiently. 
+* Provides unit tests, that your search algorithm is displaying the correct 
+results giving different inputs, including invalid inputs.
 
-* The original list of cities is provided as a plain text JSON format array. The list is preprocessed into a data representation that can be loaded more efficiently. 
-* Provides unit tests, that your search algorithm is displaying the correct results giving different inputs, including invalid inputs.
-
-## Clarifications
-
-We define a prefix string as: a substring that matches the initial characters of the target string. For instance, assume the following entries:
+We define a prefix string as: a substring that matches the initial characters of 
+the target string. For instance, assume the following entries:
 
 * Alabama, US
 * Albuquerque, US
@@ -53,6 +74,12 @@ We define a prefix string as: a substring that matches the initial characters of
 * Arizona, US
 * Sydney, AU
 
-If the given prefix is "A", all cities but Sydney should appear. Contrariwise, if the given prefix is "s", the only result should be "Sydney, AU".
-If the given prefix is "Al", "Alabama, US" and "Albuquerque, US" are the only results.
-If the prefix given is "Alb" then the only result is "Albuquerque, US"
+If the given prefix is "A", all cities but Sydney should appear. Contrariwise, 
+if the given prefix is "s", the only result should be "Sydney, AU". If the given 
+prefix is "Al", "Alabama, US" and "Albuquerque, US" are the only results. If the 
+prefix given is "Alb" then the only result is "Albuquerque, US"
+
+## TODO:
+
+- The encoded data is created when running a specific unit test. It would be 
+better to encode data at build time, or when the application is first launched.
