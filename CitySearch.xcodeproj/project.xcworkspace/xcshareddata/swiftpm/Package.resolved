@@ -8,6 +8,15 @@
         "branch" : "main",
         "revision" : "ec637636675c5362d0c89b990ccf33199baad6cc"
       }
+    },
+    {
+      "identity" : "textindex",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lukevanin/TextIndex.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3b6c5b5aea68955c281add6e9ae12a1632fa1579"
+      }
     }
   ],
   "version" : 2
